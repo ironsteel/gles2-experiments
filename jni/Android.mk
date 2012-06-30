@@ -19,7 +19,8 @@ include $(CLEAR_VARS)
 LOCAL_MODULE    := native-activity
 LOCAL_C_INCLUDES := include 
 
-LOCAL_SRC_FILES := src/main.cpp 
+LOCAL_SRC_FILES := src/main.cpp \
+				   src/GLESApplication.cpp
 
 LOCAL_LDFLAGS	:= -Wl,-Map=native-activity.map  
 
