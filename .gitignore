@@ -3,3 +3,4 @@ libs/
 local.properties
 obj/
 build.xml
+jni/native-activity.map
