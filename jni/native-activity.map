@@ -1,0 +1,1469 @@
+Archive member included because of file (symbol)
+
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o (app_dummy)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o (__gxx_personality_v0)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o) (_ZN10__cxxabiv111__terminateEPFvvE)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o) (__cxa_rethrow)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_unex_handler.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o) (_ZN10__cxxabiv120__unexpected_handlerE)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o) (__cxa_allocate_exception)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o) (__cxa_call_terminate)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o) (__cxa_end_catch)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o) (_ZNSt9exceptionD2Ev)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o) (__cxa_get_globals_fast)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_term_handler.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o) (_ZN10__cxxabiv119__terminate_handlerE)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o) (__cxa_pure_virtual)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o) (_ZTVN10__cxxabiv120__si_class_type_infoE)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o) (_ZNKSt9type_info14__is_pointer_pEv)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_term_handler.o) (_ZN9__gnu_cxx27__verbose_terminate_handlerEv)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o) (_ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o) (__cxa_demangle)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o) (_ZdlPv)
+/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o) (__cxa_current_exception_type)
+/opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+                              /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o) (_Unwind_GetIPInfo)
+/opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+                              /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o) (_Unwind_Find_FDE)
+
+Discarded input sections
+
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_unex_handler.o)
+ _ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZN9__gnu_cxx24__concurrence_lock_errorD1Ev
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZN9__gnu_cxx26__concurrence_unlock_errorD1Ev
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZN9__gnu_cxx13__scoped_lockD1Ev
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZTIN9__gnu_cxx24__concurrence_lock_errorE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZTSN9__gnu_cxx24__concurrence_lock_errorE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZTVN9__gnu_cxx24__concurrence_lock_errorE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZTIN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZTSN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ _ZTVN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ __x86.get_pc_thunk.cx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ _ZTVN10__cxxabiv119__foreign_exceptionE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTVN10__cxxabiv115__forced_unwindE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTVSt13bad_exception
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTVSt9exception
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTSN10__cxxabiv119__foreign_exceptionE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTIN10__cxxabiv119__foreign_exceptionE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTSN10__cxxabiv115__forced_unwindE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTIN10__cxxabiv115__forced_unwindE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTSSt13bad_exception
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTISt13bad_exception
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTSSt9exception
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZTISt9exception
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ __x86.get_pc_thunk.cx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ .text.__x86.get_pc_thunk.cx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ _ZN17__eh_globals_initD1Ev
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_term_handler.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ _ZTVN10__cxxabiv120__si_class_type_infoE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ _ZTSN10__cxxabiv120__si_class_type_infoE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ _ZTIN10__cxxabiv120__si_class_type_infoE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ _ZTVSt9type_info
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ _ZTSSt9type_info
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ _ZTISt9type_info
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ DW.ref._ZTISt9exception
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ _ZTVN10__cxxabiv117__class_type_infoE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ _ZTSN10__cxxabiv117__class_type_infoE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ _ZTIN10__cxxabiv117__class_type_infoE
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+ DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+ .data.DW.ref.__gxx_personality_v0
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+ __x86.get_pc_thunk.cx
+                0x00000000        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .text.__x86.get_pc_thunk.cx
+                0x00000000        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ __x86.get_pc_thunk.bx
+                0x00000000        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+ .text.__x86.get_pc_thunk.bx
+                0x00000000        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+ .note.GNU-stack
+                0x00000000        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+LOAD /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+LOAD /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a
+LOAD /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/liblog.so
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/libandroid.so
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/libEGL.so
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/libGLESv2.so
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/liblog.so
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/libstdc++.so
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/libm.so
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/libc.so
+LOAD /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/libc.so
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/libdl.so
+LOAD /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a
+LOAD /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtend_so.o
+                0x000000d4                . = (0x0 + SIZEOF_HEADERS)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash           0x000000d4      0x658
+ *(.hash)
+ .hash          0x000000d4      0x658 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x0000072c      0xcf0
+ *(.dynsym)
+ .dynsym        0x0000072c      0xcf0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+
+.dynstr         0x0000141c     0x142f
+ *(.dynstr)
+ .dynstr        0x0000141c     0x142f /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+
+.gnu.version    0x0000284c        0x0 load address 0x0000284b
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+
+.gnu.version_d  0x0000284c        0x0 load address 0x0000284b
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+
+.gnu.version_r  0x0000284c        0x0 load address 0x0000284b
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+
+.rel.dyn        0x0000284c      0x890
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text.__cxa_allocate_dependent_exception
+                0x00000000        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.text.__cxa_allocate_exception
+                0x00000000        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro._ZTIN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000284c       0x18 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTVN9__gnu_cxx24__concurrence_lock_errorE
+                0x00002864       0x20 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTIN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00002884       0x18 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTVN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000289c       0x20 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTVN10__cxxabiv119__foreign_exceptionE
+                0x000028bc       0x20 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTVN10__cxxabiv115__forced_unwindE
+                0x000028dc       0x20 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTVSt13bad_exception
+                0x000028fc       0x20 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTVSt9exception
+                0x0000291c       0x20 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTIN10__cxxabiv119__foreign_exceptionE
+                0x0000293c       0x10 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTIN10__cxxabiv115__forced_unwindE
+                0x0000294c       0x10 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTISt13bad_exception
+                0x0000295c       0x18 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTISt9exception
+                0x00002974       0x10 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTVN10__cxxabiv120__si_class_type_infoE
+                0x00002984       0x50 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTIN10__cxxabiv120__si_class_type_infoE
+                0x000029d4       0x18 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTVSt9type_info
+                0x000029ec       0x38 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTISt9type_info
+                0x00002a24       0x10 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTVN10__cxxabiv117__class_type_infoE
+                0x00002a34       0x50 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro._ZTIN10__cxxabiv117__class_type_infoE
+                0x00002a84       0x18 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel.ro.local
+                0x00002a9c      0x590 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data      0x0000302c        0x8 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.DW.ref.__gxx_personality_v0
+                0x00003034        0x8 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel._ZN10__cxxabiv120__unexpected_handlerE
+                0x0000303c        0x8 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.rel._ZN10__cxxabiv119__terminate_handlerE
+                0x00003044        0x8 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.data.DW.ref._ZTISt9exception
+                0x0000304c        0x8 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00003054       0x68 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.init_array
+                0x000030bc       0x18 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.fini_array
+                0x000030d4        0x8 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.eh_frame  0x00000000        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .rel.gcc_except_table._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x00000000        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+
+.rela.dyn
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt        0x000030dc      0x2e0
+ *(.rel.plt)
+ .rel.plt       0x000030dc      0x2e0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(.init)
+
+.plt            0x000033bc      0x5d0
+ *(.plt)
+ .plt           0x000033bc      0x5d0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+
+.text           0x00003990     0xc9d4
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00003990       0xf1 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+                0x00003a70                __stack_chk_fail_local
+                0x00003a30                atexit
+ .text.__x86.get_pc_thunk.bx
+                0x00003a81        0xc /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+                0x00003a81                __x86.get_pc_thunk.bx
+ *fill*         0x00003a8d        0x3 90909090
+ .text          0x00003a90        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .text._ZL19engine_init_displayP6engine
+                0x00003a90      0x301 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .text._ZL17engine_draw_frameP6engine
+                0x00003d91       0x70 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .text._ZL19engine_term_displayP6engine
+                0x00003e01       0xcf /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .text._ZL19engine_handle_inputP11android_appP11AInputEvent
+                0x00003ed0       0x95 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .text._ZL17engine_handle_cmdP11android_appi
+                0x00003f65      0x15d /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .text.android_main
+                0x000040c2      0x119 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+                0x000040c2                android_main
+ *fill*         0x000041db        0x1 90909090
+ .text          0x000041dc        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.free_saved_state
+                0x000041dc       0x62 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_read_cmd
+                0x0000423e       0x7d /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x0000423e                android_app_read_cmd
+ .text.print_cur_config
+                0x000042bb      0x28c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_pre_exec_cmd
+                0x00004547      0x283 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x00004547                android_app_pre_exec_cmd
+ .text.android_app_post_exec_cmd
+                0x000047ca       0xf8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x000047ca                android_app_post_exec_cmd
+ .text.app_dummy
+                0x000048c2        0x1 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x000048c2                app_dummy
+ .text.android_app_destroy
+                0x000048c3       0xa1 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.process_input
+                0x00004964      0x110 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.process_cmd
+                0x00004a74       0x72 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_entry
+                0x00004ae6      0x141 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_create
+                0x00004c27      0x1b4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_write_cmd
+                0x00004ddb       0x73 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_set_input
+                0x00004e4e       0x7f /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_set_window
+                0x00004ecd       0xb1 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_set_activity_state
+                0x00004f7e       0x7b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.android_app_free
+                0x00004ff9       0xb5 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onDestroy
+                0x000050ae       0x4b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onStart  0x000050f9       0x53 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onResume
+                0x0000514c       0x53 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onSaveInstanceState
+                0x0000519f       0xf0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onPause  0x0000528f       0x53 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onStop   0x000052e2       0x53 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onConfigurationChanged
+                0x00005335       0x5b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onLowMemory
+                0x00005390       0x5b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onWindowFocusChanged
+                0x000053eb       0x6a /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onNativeWindowCreated
+                0x00005455       0x5b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onNativeWindowDestroyed
+                0x000054b0       0x5b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onInputQueueCreated
+                0x0000550b       0x5b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.onInputQueueDestroyed
+                0x00005566       0x5b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .text.ANativeActivity_onCreate
+                0x000055c1      0x121 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+                0x000055c1                ANativeActivity_onCreate
+ *fill*         0x000056e2        0x2 90909090
+ .text          0x000056e4        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ *fill*         0x000056e4        0xc 90909090
+ .text._ZL21base_of_encoded_valuehP15_Unwind_Context
+                0x000056f0       0x8e /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ *fill*         0x0000577e        0x2 90909090
+ .text._ZL20check_exception_specP16lsda_header_infoPKSt9type_infoPvl
+                0x00005780      0x21b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ *fill*         0x0000599b        0x5 90909090
+ .text._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
+                0x000059a0      0x1d8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ *fill*         0x00005b78        0x8 90909090
+ .text.__cxa_call_unexpected
+                0x00005b80      0x108 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+                0x00005b80                __cxa_call_unexpected
+ *fill*         0x00005c88        0x8 90909090
+ .text.__gxx_personality_v0
+                0x00005c90      0xcd7 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+                0x00005c90                __gxx_personality_v0
+ *fill*         0x00006967        0x1 90909090
+ .text          0x00006968        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ *fill*         0x00006968        0x8 90909090
+ .text._ZSt13set_terminatePFvvE
+                0x00006970       0x1f /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+                0x00006970                _ZSt13set_terminatePFvvE
+ *fill*         0x0000698f        0x1 90909090
+ .text._ZSt14set_unexpectedPFvvE
+                0x00006990       0x1f /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+                0x00006990                _ZSt14set_unexpectedPFvvE
+ *fill*         0x000069af        0x1 90909090
+ .text._ZN10__cxxabiv111__terminateEPFvvE
+                0x000069b0       0x3a /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+                0x000069b0                _ZN10__cxxabiv111__terminateEPFvvE
+ *fill*         0x000069ea        0x6 90909090
+ .text._ZSt9terminatev
+                0x000069f0       0x22 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+                0x000069f0                _ZSt9terminatev
+ *fill*         0x00006a12        0xe 90909090
+ .text._ZN10__cxxabiv112__unexpectedEPFvvE
+                0x00006a20       0x1a /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+                0x00006a20                _ZN10__cxxabiv112__unexpectedEPFvvE
+ *fill*         0x00006a3a        0x6 90909090
+ .text._ZSt10unexpectedv
+                0x00006a40       0x22 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+                0x00006a40                _ZSt10unexpectedv
+ *fill*         0x00006a62        0x2 90909090
+ .text          0x00006a64        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ *fill*         0x00006a64        0xc 90909090
+ .text.__cxa_rethrow
+                0x00006a70       0x6a /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+                0x00006a70                __cxa_rethrow
+ *fill*         0x00006ada        0x6 90909090
+ .text.__cxa_throw
+                0x00006ae0       0x71 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+                0x00006ae0                __cxa_throw
+ *fill*         0x00006b51        0xf 90909090
+ .text._ZL23__gxx_exception_cleanup19_Unwind_Reason_CodeP17_Unwind_Exception
+                0x00006b60       0x60 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ .text          0x00006bc0        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_unex_handler.o)
+ .text          0x00006bc0        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .text._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+                0x00006bc0       0x16 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006bc0                _ZNK9__gnu_cxx24__concurrence_lock_error4whatEv
+ *fill*         0x00006bd6        0xa 90909090
+ .text._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+                0x00006be0       0x16 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006be0                _ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv
+ *fill*         0x00006bf6        0xa 90909090
+ .text._GLOBAL__I_eh_alloc.cc
+                0x00006c00       0x23 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ *fill*         0x00006c23        0xd 90909090
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD1Ev
+                0x00006c30       0x2b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006c30                _ZN9__gnu_cxx24__concurrence_lock_errorD1Ev
+ *fill*         0x00006c5b        0x5 90909090
+ .text._ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+                0x00006c60       0x3c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006c60                _ZN9__gnu_cxx24__concurrence_lock_errorD0Ev
+ *fill*         0x00006c9c        0x4 90909090
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD1Ev
+                0x00006ca0       0x2b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006ca0                _ZN9__gnu_cxx26__concurrence_unlock_errorD1Ev
+ *fill*         0x00006ccb        0x5 90909090
+ .text._ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+                0x00006cd0       0x3c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006cd0                _ZN9__gnu_cxx26__concurrence_unlock_errorD0Ev
+ *fill*         0x00006d0c        0x4 90909090
+ .text._ZN9__gnu_cxx13__scoped_lockD1Ev
+                0x00006d10       0x6e /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006d10                _ZN9__gnu_cxx13__scoped_lockD1Ev
+ *fill*         0x00006d7e        0x2 90909090
+ .text.__cxa_free_dependent_exception
+                0x00006d80      0x107 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006d80                __cxa_free_dependent_exception
+ *fill*         0x00006e87        0x9 90909090
+ .text.__cxa_free_exception
+                0x00006e90      0x104 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006e90                __cxa_free_exception
+ *fill*         0x00006f94        0xc 90909090
+ .text.__cxa_allocate_dependent_exception
+                0x00006fa0      0x158 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00006fa0                __cxa_allocate_dependent_exception
+ *fill*         0x000070f8        0x8 90909090
+ .text.__cxa_allocate_exception
+                0x00007100      0x1b8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00007100                __cxa_allocate_exception
+ .text.__x86.get_pc_thunk.cx
+                0x000072b8        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x000072b8                __x86.get_pc_thunk.cx
+ .text          0x000072bc        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+ *fill*         0x000072bc        0x4 90909090
+ .text.__cxa_call_terminate
+                0x000072c0       0x55 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+                0x000072c0                __cxa_call_terminate
+ *fill*         0x00007315        0x3 90909090
+ .text          0x00007318        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ *fill*         0x00007318        0x8 90909090
+ .text.__cxa_get_exception_ptr
+                0x00007320        0xb /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+                0x00007320                __cxa_get_exception_ptr
+ *fill*         0x0000732b        0x5 90909090
+ .text._ZSt18uncaught_exceptionv
+                0x00007330       0x25 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+                0x00007330                _ZSt18uncaught_exceptionv
+ *fill*         0x00007355        0xb 90909090
+ .text.__cxa_end_catch
+                0x00007360       0xa7 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+                0x00007360                __cxa_end_catch
+ *fill*         0x00007407        0x9 90909090
+ .text.__cxa_begin_catch
+                0x00007410       0x9b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+                0x00007410                __cxa_begin_catch
+ *fill*         0x000074ab        0x1 90909090
+ .text          0x000074ac        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ *fill*         0x000074ac        0x4 90909090
+ .text._ZNSt9exceptionD2Ev
+                0x000074b0        0x5 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x000074b0                _ZNSt9exceptionD2Ev
+ *fill*         0x000074b5        0xb 90909090
+ .text._ZNSt9exceptionD1Ev
+                0x000074c0        0x5 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x000074c0                _ZNSt9exceptionD1Ev
+ *fill*         0x000074c5        0xb 90909090
+ .text._ZNSt13bad_exceptionD2Ev
+                0x000074d0       0x2e /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x000074d0                _ZNSt13bad_exceptionD2Ev
+ *fill*         0x000074fe        0x2 90909090
+ .text._ZNSt13bad_exceptionD1Ev
+                0x00007500       0x2e /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00007500                _ZNSt13bad_exceptionD1Ev
+ *fill*         0x0000752e        0x2 90909090
+ .text._ZN10__cxxabiv115__forced_unwindD2Ev
+                0x00007530        0x5 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00007530                _ZN10__cxxabiv115__forced_unwindD2Ev
+ *fill*         0x00007535        0xb 90909090
+ .text._ZN10__cxxabiv115__forced_unwindD1Ev
+                0x00007540        0x5 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00007540                _ZN10__cxxabiv115__forced_unwindD1Ev
+ *fill*         0x00007545        0xb 90909090
+ .text._ZN10__cxxabiv119__foreign_exceptionD2Ev
+                0x00007550        0x5 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00007550                _ZN10__cxxabiv119__foreign_exceptionD2Ev
+ *fill*         0x00007555        0xb 90909090
+ .text._ZN10__cxxabiv119__foreign_exceptionD1Ev
+                0x00007560        0x5 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00007560                _ZN10__cxxabiv119__foreign_exceptionD1Ev
+ *fill*         0x00007565        0xb 90909090
+ .text._ZNKSt9exception4whatEv
+                0x00007570       0x16 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00007570                _ZNKSt9exception4whatEv
+ *fill*         0x00007586        0xa 90909090
+ .text._ZNKSt13bad_exception4whatEv
+                0x00007590       0x16 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00007590                _ZNKSt13bad_exception4whatEv
+ *fill*         0x000075a6        0xa 90909090
+ .text._ZN10__cxxabiv119__foreign_exceptionD0Ev
+                0x000075b0       0x34 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x000075b0                _ZN10__cxxabiv119__foreign_exceptionD0Ev
+ *fill*         0x000075e4        0xc 90909090
+ .text._ZN10__cxxabiv115__forced_unwindD0Ev
+                0x000075f0       0x34 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x000075f0                _ZN10__cxxabiv115__forced_unwindD0Ev
+ *fill*         0x00007624        0xc 90909090
+ .text._ZNSt9exceptionD0Ev
+                0x00007630       0x34 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00007630                _ZNSt9exceptionD0Ev
+ *fill*         0x00007664        0xc 90909090
+ .text._ZNSt13bad_exceptionD0Ev
+                0x00007670       0x34 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00007670                _ZNSt13bad_exceptionD0Ev
+ .text          0x000076a4        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ *fill*         0x000076a4        0xc 90909090
+ .text._GLOBAL__I_eh_globals.cc
+                0x000076b0       0x65 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ *fill*         0x00007715        0xb 90909090
+ .text._ZL15eh_globals_dtorPv
+                0x00007720       0x4c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ *fill*         0x0000776c        0x4 90909090
+ .text._ZN17__eh_globals_initD1Ev
+                0x00007770       0x44 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+                0x00007770                _ZN17__eh_globals_initD1Ev
+ *fill*         0x000077b4        0xc 90909090
+ .text.__cxa_get_globals_fast
+                0x000077c0       0x51 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+                0x000077c0                __cxa_get_globals_fast
+ *fill*         0x00007811        0xf 90909090
+ .text.__cxa_get_globals
+                0x00007820       0x96 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+                0x00007820                __cxa_get_globals
+ *fill*         0x000078b6        0x2 90909090
+ .text          0x000078b8        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_term_handler.o)
+ .text          0x000078b8        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ *fill*         0x000078b8        0x8 90909090
+ .text.__cxa_pure_virtual
+                0x000078c0       0x35 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+                0x000078c0                __cxa_pure_virtual
+ *fill*         0x000078f5        0x3 90909090
+ .text          0x000078f8        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ *fill*         0x000078f8        0x8 90909090
+ .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x00007900       0x57 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                0x00007900                _ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+ *fill*         0x00007957        0x9 90909090
+ .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x00007960       0xbc /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                0x00007960                _ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+ *fill*         0x00007a1c        0x4 90909090
+ .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x00007a20       0x6f /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                0x00007a20                _ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+ *fill*         0x00007a8f        0x1 90909090
+ .text._ZN10__cxxabiv120__si_class_type_infoD1Ev
+                0x00007a90       0x2e /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                0x00007a90                _ZN10__cxxabiv120__si_class_type_infoD1Ev
+ *fill*         0x00007abe        0x2 90909090
+ .text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+                0x00007ac0       0x34 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                0x00007ac0                _ZN10__cxxabiv120__si_class_type_infoD0Ev
+ *fill*         0x00007af4        0xc 90909090
+ .text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x00007b00       0x2e /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                0x00007b00                _ZN10__cxxabiv120__si_class_type_infoD2Ev
+ *fill*         0x00007b2e        0x2 90909090
+ .text          0x00007b30        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ .text._ZNSt9type_infoD2Ev
+                0x00007b30        0x5 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00007b30                _ZNSt9type_infoD2Ev
+ *fill*         0x00007b35        0xb 90909090
+ .text._ZNSt9type_infoD1Ev
+                0x00007b40        0x5 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00007b40                _ZNSt9type_infoD1Ev
+ *fill*         0x00007b45        0xb 90909090
+ .text._ZNKSt9type_info14__is_pointer_pEv
+                0x00007b50        0x7 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00007b50                _ZNKSt9type_info14__is_pointer_pEv
+ *fill*         0x00007b57        0x9 90909090
+ .text._ZNKSt9type_info15__is_function_pEv
+                0x00007b60        0x7 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00007b60                _ZNKSt9type_info15__is_function_pEv
+ *fill*         0x00007b67        0x9 90909090
+ .text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x00007b70       0x14 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00007b70                _ZNKSt9type_info10__do_catchEPKS_PPvj
+ *fill*         0x00007b84        0xc 90909090
+ .text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+                0x00007b90        0x7 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00007b90                _ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+ *fill*         0x00007b97        0x9 90909090
+ .text._ZNSt9type_infoD0Ev
+                0x00007ba0       0x23 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00007ba0                _ZNSt9type_infoD0Ev
+ *fill*         0x00007bc3        0x1 90909090
+ .text          0x00007bc4        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ *fill*         0x00007bc4        0xc 90909090
+ .text._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x00007bd0      0x211 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+                0x00007bd0                _ZN9__gnu_cxx27__verbose_terminate_handlerEv
+ *fill*         0x00007de1        0x3 90909090
+ .text          0x00007de4        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ *fill*         0x00007de4        0xc 90909090
+ .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x00007df0       0x3b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00007df0                _ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+ *fill*         0x00007e2b        0x5 90909090
+ .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x00007e30       0x62 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00007e30                _ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+ *fill*         0x00007e92        0xe 90909090
+ .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x00007ea0       0x15 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00007ea0                _ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+ *fill*         0x00007eb5        0xb 90909090
+ .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x00007ec0       0x56 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00007ec0                _ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+ *fill*         0x00007f16        0xa 90909090
+ .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x00007f20       0x3b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00007f20                _ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+ *fill*         0x00007f5b        0x5 90909090
+ .text._ZN10__cxxabiv117__class_type_infoD1Ev
+                0x00007f60       0x2e /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00007f60                _ZN10__cxxabiv117__class_type_infoD1Ev
+ *fill*         0x00007f8e        0x2 90909090
+ .text._ZN10__cxxabiv117__class_type_infoD0Ev
+                0x00007f90       0x34 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00007f90                _ZN10__cxxabiv117__class_type_infoD0Ev
+ *fill*         0x00007fc4        0xc 90909090
+ .text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x00007fd0       0x2e /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00007fd0                _ZN10__cxxabiv117__class_type_infoD2Ev
+ *fill*         0x00007ffe        0x2 90909090
+ .text          0x00008000     0x531b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+                0x0000cd10                __cxa_demangle
+                0x0000ccd0                __gcclibcxx_demangle_callback
+ *fill*         0x0000d31b        0x1 90909090
+ .text          0x0000d31c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+ *fill*         0x0000d31c        0x4 90909090
+ .text._ZdlPv   0x0000d320       0x27 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+                0x0000d320                _ZdlPv
+ *fill*         0x0000d347        0x1 90909090
+ .text          0x0000d348        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+ *fill*         0x0000d348        0x8 90909090
+ .text.__cxa_current_exception_type
+                0x0000d350       0x37 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+                0x0000d350                __cxa_current_exception_type
+ *fill*         0x0000d387        0x1 90909090
+ .text          0x0000d388     0x1f87 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+                0x0000d39e                _Unwind_GetIPInfo
+                0x0000d393                _Unwind_GetIP
+                0x0000f25d                _Unwind_Resume_or_Rethrow
+                0x0000d3cd                _Unwind_GetRegionStart
+                0x0000ec55                _Unwind_Backtrace
+                0x0000d388                _Unwind_GetCFA
+                0x0000ee42                __frame_state_for
+                0x0000efeb                _Unwind_Resume
+                0x0000d3ee                _Unwind_DeleteException
+                0x0000f121                _Unwind_RaiseException
+                0x0000d3b4                _Unwind_SetIP
+                0x0000d3e3                _Unwind_GetTextRelBase
+                0x0000e09c                _Unwind_FindEnclosingFunction
+                0x0000d3c2                _Unwind_GetLanguageSpecificData
+                0x0000f085                _Unwind_ForcedUnwind
+                0x0000d5aa                _Unwind_SetGR
+                0x0000d600                _Unwind_GetGR
+                0x0000d3d8                _Unwind_GetDataRelBase
+ *fill*         0x0000f30f        0x1 90909090
+ .text          0x0000f310     0x1054 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+                0x0000ff9d                _Unwind_Find_FDE
+                0x0001032f                __register_frame
+                0x00010264                __register_frame_table
+                0x00010290                __register_frame_info_bases
+                0x0001017b                __deregister_frame_info
+                0x000100b5                __deregister_frame_info_bases
+                0x000101cd                __register_frame_info_table_bases
+                0x0001019a                __deregister_frame
+                0x0001023b                __register_frame_info_table
+                0x00010306                __register_frame_info
+ .text          0x00010364        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtend_so.o
+ *(.gnu.warning)
+
+.fini
+ *(.fini)
+                0x00010364                PROVIDE (__etext, .)
+                0x00010364                PROVIDE (_etext, .)
+                0x00010364                PROVIDE (etext, .)
+
+.rodata         0x00010380     0x1618
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00010380       0x9c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .rodata        0x0001041c      0x36d /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ *fill*         0x00010789        0x3 00
+ .rodata._ZL20check_exception_specP16lsda_header_infoPKSt9type_infoPvl
+                0x0001078c       0x34 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .rodata._ZL17parse_lsda_headerP15_Unwind_ContextPKhP16lsda_header_info
+                0x000107c0       0x34 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .rodata.__gxx_personality_v0
+                0x000107f4       0xd0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .rodata.str1.4
+                0x000108c4       0x4a /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ *fill*         0x0001090e       0x12 00
+ .rodata._ZTSN9__gnu_cxx24__concurrence_lock_errorE
+                0x00010920       0x27 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00010920                _ZTSN9__gnu_cxx24__concurrence_lock_errorE
+ *fill*         0x00010947       0x19 00
+ .rodata._ZTSN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00010960       0x29 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00010960                _ZTSN9__gnu_cxx26__concurrence_unlock_errorE
+ .rodata.str1.1
+                0x00010989       0x22 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ *fill*         0x000109ab       0x15 00
+ .rodata._ZTSN10__cxxabiv119__foreign_exceptionE
+                0x000109c0       0x24 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x000109c0                _ZTSN10__cxxabiv119__foreign_exceptionE
+ *fill*         0x000109e4       0x1c 00
+ .rodata._ZTSN10__cxxabiv115__forced_unwindE
+                0x00010a00       0x20 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00010a00                _ZTSN10__cxxabiv115__forced_unwindE
+ .rodata._ZTSSt13bad_exception
+                0x00010a20       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00010a20                _ZTSSt13bad_exception
+ .rodata._ZTSSt9exception
+                0x00010a32        0xd /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00010a32                _ZTSSt9exception
+ .rodata.str1.1
+                0x00010a3f       0x1c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ *fill*         0x00010a5b        0x5 00
+ .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
+                0x00010a60       0x25 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                0x00010a60                _ZTSN10__cxxabiv120__si_class_type_infoE
+ .rodata._ZTSSt9type_info
+                0x00010a85        0xd /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00010a85                _ZTSSt9type_info
+ .rodata.str1.1
+                0x00010a92       0x2d /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ *fill*         0x00010abf        0x1 00
+ .rodata.str1.4
+                0x00010ac0       0x62 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ *fill*         0x00010b22       0x1e 00
+ .rodata._ZTSN10__cxxabiv117__class_type_infoE
+                0x00010b40       0x22 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00010b40                _ZTSN10__cxxabiv117__class_type_infoE
+ *fill*         0x00010b62        0x2 00
+ .rodata        0x00010b64      0x778 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+ .rodata.str1.1
+                0x000112dc      0x445 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+                                0x4ea (size before relaxing)
+ *fill*         0x00011721        0x3 00
+ .rodata.str1.4
+                0x00011724       0xe4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+                                 0xe3 (size before relaxing)
+ .rodata        0x00011808      0x15c /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .rodata        0x00011964       0x34 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00011998      0x61c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00011998      0x61c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+
+.eh_frame       0x00011fb4     0x21a0
+ *(.eh_frame)
+ .eh_frame      0x00011fb4        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .eh_frame      0x00011fb4      0x100 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .eh_frame      0x000120b4      0x45c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .eh_frame      0x00012510      0x128 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+                                0x144 (size before relaxing)
+ .eh_frame      0x00012638       0xbc /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+                                 0xf8 (size before relaxing)
+ .eh_frame      0x000126f4       0x6c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+                                 0x88 (size before relaxing)
+ .eh_frame      0x00012760      0x204 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                                0x240 (size before relaxing)
+ .eh_frame      0x00012964       0x20 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+                                 0x3c (size before relaxing)
+ .eh_frame      0x00012984       0xa8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+                                 0xe4 (size before relaxing)
+ .eh_frame      0x00012a2c      0x1e8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                                0x204 (size before relaxing)
+ .eh_frame      0x00012c14       0xec /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+                                0x128 (size before relaxing)
+ .eh_frame      0x00012d00       0x1c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+                                 0x38 (size before relaxing)
+ .eh_frame      0x00012d1c      0x108 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                                0x124 (size before relaxing)
+ .eh_frame      0x00012e24       0xe4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                                0x100 (size before relaxing)
+ .eh_frame      0x00012f08       0x28 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+                                 0x48 (size before relaxing)
+ .eh_frame      0x00012f30      0x134 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                                0x150 (size before relaxing)
+ .eh_frame      0x00013064      0x704 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+                                0x71c (size before relaxing)
+ .eh_frame      0x00013768       0x24 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+                                 0x40 (size before relaxing)
+ .eh_frame      0x0001378c       0x28 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+                                 0x44 (size before relaxing)
+ .eh_frame      0x000137b4      0x58c /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+                                0x5a4 (size before relaxing)
+ .eh_frame      0x00013d40      0x410 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+                                0x428 (size before relaxing)
+ .eh_frame      0x00014150        0x4 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtend_so.o
+
+.gcc_except_table
+                0x00014154      0x1ac
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table.__cxa_call_unexpected
+                0x00014154       0x20 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .gcc_except_table.__gxx_personality_v0
+                0x00014174       0x24 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .gcc_except_table._ZN10__cxxabiv111__terminateEPFvvE
+                0x00014198       0x18 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ .gcc_except_table._ZN9__gnu_cxx13__scoped_lockD1Ev
+                0x000141b0       0x11 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ *fill*         0x000141c1        0x3 00
+ .gcc_except_table.__cxa_free_dependent_exception
+                0x000141c4       0x2d /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ *fill*         0x000141f1        0x3 00
+ .gcc_except_table.__cxa_free_exception
+                0x000141f4       0x2d /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ *fill*         0x00014221        0x3 00
+ .gcc_except_table.__cxa_allocate_dependent_exception
+                0x00014224       0x29 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ *fill*         0x0001424d        0x3 00
+ .gcc_except_table.__cxa_allocate_exception
+                0x00014250       0x35 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ *fill*         0x00014285        0x3 00
+ .gcc_except_table.__cxa_begin_catch
+                0x00014288       0x15 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ *fill*         0x0001429d        0x3 00
+ .gcc_except_table.__cxa_get_globals_fast
+                0x000142a0       0x11 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ *fill*         0x000142b1        0x3 00
+ .gcc_except_table.__cxa_get_globals
+                0x000142b4       0x15 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ *fill*         0x000142c9        0x3 00
+ .gcc_except_table._ZN9__gnu_cxx27__verbose_terminate_handlerEv
+                0x000142cc       0x34 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+                0x00014300                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x00015300                . = (0x1000 DATA_SEGMENT_ALIGN 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array
+ *(.preinit_array)
+
+.init_array     0x00015300       0x14
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x00015300        0x8 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+                0x00015300                __INIT_ARRAY__
+ .init_array    0x00015308        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .init_array    0x0001530c        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .init_array    0x00015310        0x4 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtend_so.o
+
+.fini_array     0x00015314        0xc
+ *(.fini_array)
+ .fini_array    0x00015314        0x8 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+                0x00015314                __FINI_ARRAY__
+ .fini_array    0x0001531c        0x4 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtend_so.o
+ *(SORT(.fini_array.*))
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x00015320      0x838
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local
+                0x00015320      0x6b0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro._ZTIN9__gnu_cxx24__concurrence_lock_errorE
+                0x000159d0        0xc /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x000159d0                _ZTIN9__gnu_cxx24__concurrence_lock_errorE
+ *fill*         0x000159dc        0x4 00
+ .data.rel.ro._ZTVN9__gnu_cxx24__concurrence_lock_errorE
+                0x000159e0       0x14 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x000159e0                _ZTVN9__gnu_cxx24__concurrence_lock_errorE
+ .data.rel.ro._ZTIN9__gnu_cxx26__concurrence_unlock_errorE
+                0x000159f4        0xc /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x000159f4                _ZTIN9__gnu_cxx26__concurrence_unlock_errorE
+ .data.rel.ro._ZTVN9__gnu_cxx26__concurrence_unlock_errorE
+                0x00015a00       0x14 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+                0x00015a00                _ZTVN9__gnu_cxx26__concurrence_unlock_errorE
+ *fill*         0x00015a14        0x4 00
+ .data.rel.ro._ZTVN10__cxxabiv119__foreign_exceptionE
+                0x00015a18       0x14 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00015a18                _ZTVN10__cxxabiv119__foreign_exceptionE
+ *fill*         0x00015a2c        0x4 00
+ .data.rel.ro._ZTVN10__cxxabiv115__forced_unwindE
+                0x00015a30       0x14 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00015a30                _ZTVN10__cxxabiv115__forced_unwindE
+ *fill*         0x00015a44        0x4 00
+ .data.rel.ro._ZTVSt13bad_exception
+                0x00015a48       0x14 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00015a48                _ZTVSt13bad_exception
+ *fill*         0x00015a5c        0x4 00
+ .data.rel.ro._ZTVSt9exception
+                0x00015a60       0x14 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00015a60                _ZTVSt9exception
+ .data.rel.ro._ZTIN10__cxxabiv119__foreign_exceptionE
+                0x00015a74        0x8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00015a74                _ZTIN10__cxxabiv119__foreign_exceptionE
+ .data.rel.ro._ZTIN10__cxxabiv115__forced_unwindE
+                0x00015a7c        0x8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00015a7c                _ZTIN10__cxxabiv115__forced_unwindE
+ .data.rel.ro._ZTISt13bad_exception
+                0x00015a84        0xc /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00015a84                _ZTISt13bad_exception
+ .data.rel.ro._ZTISt9exception
+                0x00015a90        0x8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+                0x00015a90                _ZTISt9exception
+ *fill*         0x00015a98        0x8 00
+ .data.rel.ro._ZTVN10__cxxabiv120__si_class_type_infoE
+                0x00015aa0       0x2c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                0x00015aa0                _ZTVN10__cxxabiv120__si_class_type_infoE
+ .data.rel.ro._ZTIN10__cxxabiv120__si_class_type_infoE
+                0x00015acc        0xc /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+                0x00015acc                _ZTIN10__cxxabiv120__si_class_type_infoE
+ *fill*         0x00015ad8        0x8 00
+ .data.rel.ro._ZTVSt9type_info
+                0x00015ae0       0x20 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00015ae0                _ZTVSt9type_info
+ .data.rel.ro._ZTISt9type_info
+                0x00015b00        0x8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+                0x00015b00                _ZTISt9type_info
+ *fill*         0x00015b08       0x18 00
+ .data.rel.ro._ZTVN10__cxxabiv117__class_type_infoE
+                0x00015b20       0x2c /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00015b20                _ZTVN10__cxxabiv117__class_type_infoE
+ .data.rel.ro._ZTIN10__cxxabiv117__class_type_infoE
+                0x00015b4c        0xc /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+                0x00015b4c                _ZTIN10__cxxabiv117__class_type_infoE
+
+.dynamic        0x00015b58      0x100
+ *(.dynamic)
+ .dynamic       0x00015b58      0x100 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+                0x00015b58                _DYNAMIC
+
+.got            0x00015c58       0x34
+ *(.got)
+ .got           0x00015c58       0x34 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+                0x00015c8c                . = (. DATA_SEGMENT_RELRO_END 0xc)
+
+.got.plt        0x00015c8c      0x17c
+ *(.got.plt)
+ .got.plt       0x00015c8c      0x17c /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+                0x00015c8c                _GLOBAL_OFFSET_TABLE_
+
+.data           0x00015e08       0x14
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00015e08        0x4 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+                0x00015e08                __dso_handle
+ .data          0x00015e0c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .data.DW.ref.__gxx_personality_v0
+                0x00015e0c        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+                0x00015e0c                DW.ref.__gxx_personality_v0
+ .data          0x00015e10        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .data          0x00015e10        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .data          0x00015e10        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ .data          0x00015e10        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ .data          0x00015e10        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_unex_handler.o)
+ .data.rel._ZN10__cxxabiv120__unexpected_handlerE
+                0x00015e10        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_unex_handler.o)
+                0x00015e10                _ZN10__cxxabiv120__unexpected_handlerE
+ .data          0x00015e14        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .data          0x00015e14        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+ .data          0x00015e14        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ .data          0x00015e14        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ .data          0x00015e14        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .data          0x00015e14        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_term_handler.o)
+ .data.rel._ZN10__cxxabiv119__terminate_handlerE
+                0x00015e14        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_term_handler.o)
+                0x00015e14                _ZN10__cxxabiv119__terminate_handlerE
+ .data          0x00015e18        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ .data          0x00015e18        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ .data          0x00015e18        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ .data          0x00015e18        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ .data.DW.ref._ZTISt9exception
+                0x00015e18        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+                0x00015e18                DW.ref._ZTISt9exception
+ .data          0x00015e1c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ .data          0x00015e1c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+ .data          0x00015e1c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+ .data          0x00015e1c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+ .data          0x00015e1c        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .data          0x00015e1c        0x0 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+ .data          0x00015e1c        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtend_so.o
+
+.data1
+ *(.data1)
+                0x00015e1c                _edata = .
+                0x00015e1c                PROVIDE (edata, .)
+                0x00015e1c                __bss_start = .
+
+.bss            0x00015e20     0x4a80
+ *(.dynbss)
+ .dynbss        0x00000000        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00015e20       0x1c /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtbegin_so.o
+ .bss           0x00015e3c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .bss           0x00015e3c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .bss           0x00015e3c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .bss           0x00015e3c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ .bss           0x00015e3c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ .bss           0x00015e3c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_unex_handler.o)
+ .bss           0x00015e3c        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .bss._ZN12_GLOBAL__N_115emergency_mutexE
+                0x00015e3c        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .bss._ZL17dependents_buffer
+                0x00015e40      0xa00 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .bss._ZL15dependents_used
+                0x00016840        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ *fill*         0x00016844       0x1c 00
+ .bss._ZL16emergency_buffer
+                0x00016860     0x4000 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .bss._ZL14emergency_used
+                0x0001a860        0x4 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .bss           0x0001a864        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+ .bss           0x0001a864        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ .bss           0x0001a864        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ .bss           0x0001a864        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .bss._ZL4init  0x0001a864        0x8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .bss._ZL10eh_globals
+                0x0001a86c        0x8 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .bss           0x0001a874        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_term_handler.o)
+ .bss           0x0001a874        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ .bss           0x0001a874        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ .bss           0x0001a874        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ .bss           0x0001a874        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ .bss._ZZN9__gnu_cxx27__verbose_terminate_handlerEvE11terminating
+                0x0001a874        0x1 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ *fill*         0x0001a875        0x3 00
+ .bss           0x0001a878        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ .bss           0x0001a878        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+ .bss           0x0001a878        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+ .bss           0x0001a878        0x0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+ .bss           0x0001a878       0x16 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ *fill*         0x0001a88e        0x2 00
+ .bss           0x0001a890       0x10 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+ .bss           0x0001a8a0        0x0 /opt/android-ndk/platforms/android-9/arch-x86/usr/lib/crtend_so.o
+ *(COMMON)
+                0x0001a8a0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0001a8a0                . = ALIGN (0x4)
+                0x0001a8a0                . = ALIGN (0x4)
+                0x0001a8a0                _end = .
+                0x0001a8a0                PROVIDE (end, .)
+                0x0001a8a0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x18c
+ *(.comment)
+ .comment       0x00000000       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .comment       0x00000012       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .comment       0x00000024       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_personality.o)
+ .comment       0x00000036       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_terminate.o)
+ .comment       0x00000048       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_throw.o)
+ .comment       0x0000005a       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_unex_handler.o)
+ .comment       0x0000006c       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_alloc.o)
+ .comment       0x0000007e       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_call.o)
+ .comment       0x00000090       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_catch.o)
+ .comment       0x000000a2       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_exception.o)
+ .comment       0x000000b4       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_globals.o)
+ .comment       0x000000c6       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_term_handler.o)
+ .comment       0x000000d8       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(pure.o)
+ .comment       0x000000ea       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(si_class_type_info.o)
+ .comment       0x000000fc       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(tinfo.o)
+ .comment       0x0000010e       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(vterminate.o)
+ .comment       0x00000120       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(class_type_info.o)
+ .comment       0x00000132       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(cp-demangle.o)
+ .comment       0x00000144       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(del_op.o)
+ .comment       0x00000156       0x12 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libgnustl_static.a(eh_type.o)
+ .comment       0x00000168       0x12 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .comment       0x0000017a       0x12 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x190
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x48 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .debug_aranges
+                0x00000048      0x108 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .debug_aranges
+                0x00000150       0x20 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .debug_aranges
+                0x00000170       0x20 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+.debug_pubnames
+                0x00000000      0x3a7
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x23 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .debug_pubnames
+                0x00000023       0x91 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .debug_pubnames
+                0x000000b4      0x1c7 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .debug_pubnames
+                0x0000027b      0x12c /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+.debug_info     0x00000000     0xe7b1
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000     0x5efe /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .debug_info    0x00005efe     0x3d2d /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .debug_info    0x00009c2b     0x3086 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .debug_info    0x0000ccb1     0x1b00 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+.debug_abbrev   0x00000000      0xe4b
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x23f /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .debug_abbrev  0x0000023f      0x286 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .debug_abbrev  0x000004c5      0x50b /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .debug_abbrev  0x000009d0      0x47b /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+.debug_line     0x00000000     0x1b22
+ *(.debug_line)
+ .debug_line    0x00000000      0x466 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .debug_line    0x00000466      0x5cb /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .debug_line    0x00000a31      0xa7d /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .debug_line    0x000014ae      0x674 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000     0x6e57
+ *(.debug_str)
+ .debug_str     0x00000000     0x4bc3 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+                               0x4d6b (size before relaxing)
+ .debug_str     0x00004bc3      0x31b /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+                               0x1cd4 (size before relaxing)
+ .debug_str     0x00004ede     0x1b32 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+                               0x1c85 (size before relaxing)
+ .debug_str     0x00006a10      0x447 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+                                0xd8c (size before relaxing)
+
+.debug_loc      0x00000000     0x466e
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x1c0 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .debug_loc     0x000001c0      0x800 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .debug_loc     0x000009c0     0x28d3 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .debug_loc     0x00003293     0x13db /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x728
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x70 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/objs-debug/native-activity/src/main.o
+ .debug_ranges  0x00000070      0x110 /home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libandroid_native_app_glue.a(android_native_app_glue.o)
+ .debug_ranges  0x00000180      0x310 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2.o)
+ .debug_ranges  0x00000490      0x298 /opt/android-ndk/toolchains/x86-4.4.3/prebuilt/linux-x86/bin/../lib/gcc/i686-android-linux/4.4.3/libgcc.a(unwind-dw2-fde-glibc.o)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+OUTPUT(/home/rangeli/sources/es2-android-examples-native/gles2-native-experiments/obj/local/x86/libnative-activity.so elf32-i386)
