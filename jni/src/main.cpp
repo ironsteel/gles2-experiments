@@ -20,8 +20,10 @@ static void engine_handle_cmd(struct android_app* app, int32_t cmd) {
     switch (cmd) {
         case APP_CMD_SAVE_STATE:
 
+            LOGI("Save state");
             break;
         case APP_CMD_INIT_WINDOW:
+            LOGI("INIT WINDOW state");
             // The window is being shown, get it ready.
             if (app->window != NULL) {
                 glesApp->initWindow(app);
@@ -29,18 +31,25 @@ static void engine_handle_cmd(struct android_app* app, int32_t cmd) {
             }
             break;
         case APP_CMD_TERM_WINDOW:
+            LOGI("TERM WINDOW state");
             // The window is being hidden or closed, clean it up.
             glesApp->terminateWindow(app);
-            break;
-
-        case APP_CMD_DESTROY:
             glesApp->tearDownEGLContext();
             break;
 
-        case APP_CMD_GAINED_FOCUS:
+        case APP_CMD_DESTROY:
+            break;
 
+        case APP_CMD_GAINED_FOCUS:
+            LOGI("FOCUS state");
+            glesApp->gainedFocus(app);
             break;
         case APP_CMD_LOST_FOCUS:
+            LOGI("LOST FOCUS state");
+            break;
+        case APP_CMD_START:
+            LOGI("APP STARTED"); 
+            glesApp->onStart(app);
             break;
     }
 }
@@ -52,7 +61,7 @@ static void engine_handle_cmd(struct android_app* app, int32_t cmd) {
  */
 void android_main(struct android_app* state) {
 
-    GLESApplication glesApp;
+    GLESApplication glesApp(state);
 
     // Make sure glue isn't stripped.
     app_dummy();
@@ -63,7 +72,7 @@ void android_main(struct android_app* state) {
 
     // loop waiting for stuff to do.
 
-    while (1) {
+    while (true) {
         // Read all pending events.
         int ident;
         int events;
@@ -72,7 +81,7 @@ void android_main(struct android_app* state) {
         // If not animating, we will block forever waiting for events.
         // If animating, we loop until all events are read, then continue
         // to draw the next frame of animation.
-        while ((ident=ALooper_pollAll(-1, NULL, &events,
+        while ((ident=ALooper_pollAll(0, NULL, &events,
                 (void**)&source)) >= 0) {
 
             // Process this event.

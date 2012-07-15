@@ -17,6 +17,7 @@ int GLESApplication::initWindow(android_app *app)
             EGL_DEPTH_SIZE, 1, 
             EGL_NONE
     };
+   
     EGLint w, h, dummy, format;
     EGLint numConfigs;
     EGLConfig config;
@@ -35,7 +36,8 @@ int GLESApplication::initWindow(android_app *app)
     /* EGL_NATIVE_VISUAL_ID is an attribute of the EGLConfig that is
      * guaranteed to be accepted by ANativeWindow_setBuffersGeometry().
      * As soon as we picked a EGLConfig, we can safely reconfigure the
-     * ANativeWindow buffers to match, using EGL_NATIVE_VISUAL_ID. */
+     * ANativeWindow buffers to match, using EGL_NATIVE_VISUAL_ID. 
+     */
     eglGetConfigAttrib(display, config, EGL_NATIVE_VISUAL_ID, &format);
 
     ANativeWindow_setBuffersGeometry(app->window, 0, 0, format);
@@ -66,14 +68,18 @@ int GLESApplication::initWindow(android_app *app)
     this->width = w;
     this->height = h;
     
+    glDisable(GL_DEPTH_TEST);
 
     return 0;
 }
 
 void GLESApplication::drawOneFrame()
 {
+    if (this->display == NULL) {
+        return;
+    }
     glClearColor(.0, 1.0, .0, 0.0);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT);
     eglSwapBuffers(this->display, this->surface);
 }
 
