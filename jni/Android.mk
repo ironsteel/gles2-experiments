@@ -20,7 +20,8 @@ LOCAL_MODULE    := native-activity
 LOCAL_C_INCLUDES := include 
 
 LOCAL_SRC_FILES := src/main.cpp \
-				   src/GLESApplication.cpp
+		   src/GLESApplication.cpp \
+                   src/GLESDemo.cpp
 
 LOCAL_LDFLAGS	:= -Wl,-Map=native-activity.map  
 

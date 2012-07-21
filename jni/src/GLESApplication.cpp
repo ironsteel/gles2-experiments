@@ -18,7 +18,7 @@ int GLESApplication::initWindow(android_app *app)
             EGL_NONE
     };
    
-    EGLint w, h, dummy, format;
+    EGLint w, h, format;
     EGLint numConfigs;
     EGLConfig config;
     EGLSurface surface;
@@ -68,19 +68,105 @@ int GLESApplication::initWindow(android_app *app)
     this->width = w;
     this->height = h;
     
-    glDisable(GL_DEPTH_TEST);
-
+    
+    positInit();
+    
     return 0;
 }
 
-void GLESApplication::drawOneFrame()
+
+
+
+
+GLuint GLESApplication::loadShader(const char *shaderSrc, GLenum shaderType)
+{
+    GLuint shader;
+    GLint compiled;
+
+    shader = glCreateShader(shaderType);
+
+    if(shader == 0)
+        return 0;
+
+    glShaderSource(shader, 1, &shaderSrc, NULL);
+    glCompileShader(shader);
+
+    glGetShaderiv(shader, GL_COMPILE_STATUS, &compiled);
+
+    if (!compiled) {
+        GLint infoLen = 0;
+
+        glGetShaderiv(shader, GL_INFO_LOG_LENGTH, &infoLen);
+
+        if (infoLen > 1) {
+            char *infoLog = (char*) malloc(sizeof(char) * infoLen);
+            glGetShaderInfoLog(shader, infoLen, NULL, infoLog);
+            LOGI("Error compiling shader:\n%s\n", infoLog);
+            free(infoLog);
+        }
+
+        glDeleteShader(shader);
+        return 0;
+    }
+    return shader;
+}
+
+void GLESApplication::handleCommand(android_app *app, int32_t cmd)
+{
+    switch (cmd) {
+        case APP_CMD_SAVE_STATE:
+
+            break;
+        case APP_CMD_INIT_WINDOW:
+            // The window is being shown, get it ready.
+            if (app->window != NULL) {
+                initWindow(app);
+                _drawOneFrame();
+            }
+            break;
+        case APP_CMD_TERM_WINDOW:
+            terminateWindow(app);
+            tearDownEGLContext();
+            break;
+
+        case APP_CMD_DESTROY:
+
+            break;
+
+        case APP_CMD_GAINED_FOCUS:
+            gainedFocus(app);
+            break;
+        case APP_CMD_LOST_FOCUS:
+            lostFocus(app);
+            LOGI("LOST FOCUS state");
+            break;
+        case APP_CMD_START:
+            onStart(app);
+            break;
+    }
+}
+
+
+void GLESApplication::_drawOneFrame()
 {
     if (this->display == NULL) {
         return;
     }
-    glClearColor(.0, 1.0, .0, 0.0);
-    glClear(GL_COLOR_BUFFER_BIT);
+    drawOneFrame();
     eglSwapBuffers(this->display, this->surface);
+}
+
+
+static int32_t handle_input(struct android_app* app, AInputEvent* event) {
+    GLESApplication *glApp = (GLESApplication*) app->userData;
+    return glApp->handleInput(app, event);
+}
+
+
+static void handle_cmd(struct android_app* app, int32_t cmd) {
+    GLESApplication *glesApp = (GLESApplication *)app->userData;
+    glesApp->handleCommand(app, cmd);
+    
 }
 
 
@@ -100,4 +186,44 @@ void GLESApplication::tearDownEGLContext()
     this->display = EGL_NO_DISPLAY;
     this->context = EGL_NO_CONTEXT;
     this->surface = EGL_NO_SURFACE;
+}
+
+void GLESApplication::run()
+{
+    androidContext->userData = this;
+    androidContext->onAppCmd = handle_cmd;
+    androidContext->onInputEvent = handle_input;
+    
+    while (true) {
+        // Read all pending events.
+        int ident;
+        int events;
+        struct android_poll_source* source;
+
+        // If not animating, we will block forever waiting for events.
+        // If animating, we loop until all events are read, then continue
+        // to draw the next frame of animation.
+        while ((ident=ALooper_pollAll(0, NULL, &events,
+                (void**)&source)) >= 0) {
+
+            // Process this event.
+            if (source != NULL) {
+                source->process(androidContext, source);
+            }
+
+            // Check if we are exiting.
+            if (androidContext->destroyRequested != 0) {
+                tearDownEGLContext();
+                return;
+            }
+        }
+        _drawOneFrame();
+    }
+    
+}
+
+
+int32_t GLESApplication::handleInput(android_app *app, AInputEvent *event)
+{
+    return 0;
 }
