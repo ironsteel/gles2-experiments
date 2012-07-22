@@ -1,0 +1,46 @@
+<project name="NativeActivity" default="help">
+    <target name="-package-resources" depends="-crunch">
+        <!-- only package resources if *not* a library project -->
+        <do-only-if-not-library elseText="Library project: do not package resources..." >
+            <aapt executable="${aapt}"
+                    command="package"
+                    versioncode="${version.code}"
+                    versionname="${version.name}"
+                    debug="${build.is.packaging.debug}"
+                    manifest="${out.manifest.abs.file}"
+                    assets="${asset.absolute.dir}"
+                    androidjar="${project.target.android.jar}"
+                    apkfolder="${out.absolute.dir}"
+                    nocrunch="${build.packaging.nocrunch}"
+                    resourcefilename="${resource.package.file.name}"
+                    resourcefilter="${aapt.resource.filter}"
+                    libraryResFolderPathRefid="project.library.res.folder.path"
+                    libraryPackagesRefid="project.library.packages"
+                    previousBuildType="${build.last.target}"
+                    buildType="${build.target}"
+                    ignoreAssets="${aapt.ignore.assets}">
+                <res path="${out.res.absolute.dir}" />
+                <res path="${resource.absolute.dir}" />
+                <!-- don't compress shader sources -->
+                <nocompress extension="vsh" /> <!-- vsh -> vertex shader -->
+                <nocompress extension="fsh" /> <!-- fsh -> fragment shader -->
+            </aapt>
+        </do-only-if-not-library>
+    </target>
+
+    <target name="start">
+        <xpath input="AndroidManifest.xml"
+                expression="/manifest/@package" output="manifest.package" />
+        <exec executable="${adb}" failonerror="true">
+            <arg line="${adb.device.arg}" />
+            <arg value="shell" />
+            <arg value="am" />
+            <arg value="start" />
+            <arg value="-a" />
+            <arg value="android.intent.action.MAIN" />
+            <arg value="-n" />
+            <arg value="${manifest.package}/android.app.NativeActivity" />
+        </exec>
+    </target>
+</project>
+
