@@ -17,7 +17,9 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE    := native-activity
-LOCAL_C_INCLUDES := include 
+LOCAL_C_INCLUDES := include \
+                    include/glm
+                
 
 LOCAL_SRC_FILES := src/main.cpp \
 		   src/GLESApplication.cpp \
