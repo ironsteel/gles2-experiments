@@ -1,7 +1,8 @@
 #ifndef GLESDEMO_H
 #define GLESDEMO_H
-
 #include "GLESApplication.h"
+
+using namespace std;
 
 class GLESDemo : public GLESApplication
 {
@@ -11,9 +12,10 @@ public:
     
     
 protected:
-    virtual void initShaders();
-    virtual void drawOneFrame();
-    virtual void positInit();
+    void initShaders();
+    void drawOneFrame();
+    void positInit();
+    
 };
 
 

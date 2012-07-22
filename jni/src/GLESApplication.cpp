@@ -75,20 +75,19 @@ int GLESApplication::initWindow(android_app *app)
 }
 
 
-
-
-
-GLuint GLESApplication::loadShader(const char *shaderSrc, GLenum shaderType)
+GLuint GLESApplication::compileShader(const char *path, GLenum shaderType)
 {
     GLuint shader;
     GLint compiled;
+    
+    char *shaderSrc = loadShaderFromFile(path);
 
     shader = glCreateShader(shaderType);
 
     if(shader == 0)
         return 0;
 
-    glShaderSource(shader, 1, &shaderSrc, NULL);
+    glShaderSource(shader, 1,  const_cast<const GLchar**>(&shaderSrc), NULL);
     glCompileShader(shader);
 
     glGetShaderiv(shader, GL_COMPILE_STATUS, &compiled);
@@ -108,7 +107,29 @@ GLuint GLESApplication::loadShader(const char *shaderSrc, GLenum shaderType)
         glDeleteShader(shader);
         return 0;
     }
+    
+    free(shaderSrc);
     return shader;
+}
+
+char* GLESApplication::loadShaderFromFile(const char *path)
+{
+    AAsset *shaderAsset= AAssetManager_open(androidContext->activity->assetManager, path, AASSET_MODE_BUFFER);
+    size_t length = AAsset_getLength(shaderAsset);
+    
+    LOGI("Shader source size: %d\n", length);
+    
+    char* buffer = (char*) malloc(length);
+    
+    AAsset_read(shaderAsset, buffer, length);  
+    
+    buffer[length - 1] = '\0';
+    
+    LOGI("Shader source : %s\n", buffer);
+    
+    AAsset_close(shaderAsset);
+    
+    return buffer;
 }
 
 void GLESApplication::handleCommand(android_app *app, int32_t cmd)
@@ -221,7 +242,6 @@ void GLESApplication::run()
     }
     
 }
-
 
 int32_t GLESApplication::handleInput(android_app *app, AInputEvent *event)
 {

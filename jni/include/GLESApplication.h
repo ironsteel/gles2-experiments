@@ -1,5 +1,5 @@
-#ifndef GLES_APPLICATION
-#define GLES_APPLICATION
+#ifndef GLES_APPLICATION_H
+#define GLES_APPLICATION_H
 
 #include <android_native_app_glue.h>
 #include <EGL/egl.h>
@@ -40,7 +40,8 @@ protected:
         virtual void onStart(android_app* app) {}
         virtual void initShaders() = 0;
         virtual void positInit() = 0;
-        GLuint loadShader(const char *shaderSrc, GLenum shaderType);
+        GLuint compileShader(const char *path, GLenum shaderType);
+        char *loadShaderFromFile(const char *path);
         
 
     
@@ -53,4 +54,4 @@ protected:
         int height;
         GLuint shaderProgramObject;
 };
-#endif // GLES_APPLICATION
+#endif // GLES_APPLICATION_H

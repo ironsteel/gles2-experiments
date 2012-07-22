@@ -3,21 +3,6 @@
 
 void GLESDemo::initShaders()
 {
-    const char vertShaderSource[] = 
-        "attribute vec4 vPosition;   \n"
-        "void main() \n"
-        "{ \n"
-        "   gl_Position = vPosition;  \n"
-        "} \n";
-
-    const char fragShaderSource[] = 
-        "precision mediump float; \n"
-        "void main() \n"
-        "{ \n"
-        "   gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0); \n"
-        "} \n";
-
-
     GLuint vertexShader;
     GLuint fragmentShader;
 
@@ -25,9 +10,9 @@ void GLESDemo::initShaders()
     GLint linked;
 
 
-    vertexShader = loadShader(vertShaderSource, GL_VERTEX_SHADER);
-    fragmentShader = loadShader(fragShaderSource, GL_FRAGMENT_SHADER);
-
+    vertexShader = compileShader("shaders/simple.vsh", GL_VERTEX_SHADER);
+    fragmentShader = compileShader("shaders/simple.fsh", GL_FRAGMENT_SHADER);
+    
     programObject = glCreateProgram();
 
     glAttachShader(programObject, vertexShader);
@@ -50,9 +35,9 @@ void GLESDemo::initShaders()
         return; 
 
     }
-
     shaderProgramObject = programObject;
-    return ;
+    
+    return;
 }
 
 void GLESDemo::drawOneFrame()
