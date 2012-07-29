@@ -12,16 +12,14 @@ public:
     Cube();
     virtual ~Cube() 
     {
-        glDeleteBuffers(2, vboIds);
-        delete[] vboIds;
     }
     
     void draw(GLuint shaderProgram);
 
 private:
     void initGeometry();
-    
-    GLuint *vboIds;
+    GLuint vbo_cube_vertices, vbo_cube_texcoords;
+    GLuint ibo_cube_elements;
     
 };
 

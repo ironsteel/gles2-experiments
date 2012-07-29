@@ -142,7 +142,6 @@ void GLESApplication::handleCommand(android_app *app, int32_t cmd)
             // The window is being shown, get it ready.
             if (app->window != NULL) {
                 initWindow(app);
-                _drawOneFrame();
             }
             break;
         case APP_CMD_TERM_WINDOW:
@@ -167,13 +166,21 @@ void GLESApplication::handleCommand(android_app *app, int32_t cmd)
     }
 }
 
+double GLESApplication::getCuttentTime()
+{
+    static struct timeval start;
+    
+    gettimeofday(&start, NULL);
+    return ((start.tv_sec * 1000) + (start.tv_usec / 1000.0));
+}
 
-void GLESApplication::_drawOneFrame()
+
+void GLESApplication::_drawOneFrame(double ellapsedTime)
 {
     if (this->display == NULL) {
         return;
     }
-    drawOneFrame();
+    drawOneFrame(ellapsedTime);
     eglSwapBuffers(this->display, this->surface);
 }
 
@@ -214,9 +221,14 @@ void GLESApplication::run()
     androidContext->userData = this;
     androidContext->onAppCmd = handle_cmd;
     androidContext->onInputEvent = handle_input;
+
+    double startTime = 0;
+    double timeSinceLastFrame = 0;
     
     while (true) {
-        // Read all pending events.
+       
+        startTime = getCuttentTime();
+        
         int ident;
         int events;
         struct android_poll_source* source;
@@ -238,7 +250,10 @@ void GLESApplication::run()
                 return;
             }
         }
-        _drawOneFrame();
+        _drawOneFrame(timeSinceLastFrame);
+        
+        timeSinceLastFrame = getCuttentTime() - startTime;
+        
     }
     
 }

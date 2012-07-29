@@ -17,7 +17,7 @@ public:
     
 protected:
     void initShaders();
-    void drawOneFrame();
+    void drawOneFrame(double ellapsedTime);
     void positInit();
     void terminateWindow(android_app *app);
     void createTexture();

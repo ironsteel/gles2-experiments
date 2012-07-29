@@ -7,6 +7,8 @@
 #include <android/asset_manager.h>
 #include <android/native_activity.h>
 #include <stdlib.h>
+#include <time.h>
+#include <sys/time.h>
 #include "Log.h"
 
 class GLESApplication
@@ -20,7 +22,6 @@ class GLESApplication
             this->width = 0;
             this->height = 0;
             this->androidContext = context;
-            
         }
         
         virtual ~GLESApplication() {}
@@ -29,14 +30,15 @@ class GLESApplication
         void tearDownEGLContext();
         virtual int32_t handleInput(struct android_app* app, AInputEvent* event);
         void handleCommand(struct android_app* app, int32_t cmd);
+        double getCuttentTime();
         void run();
     
 protected:
         virtual void saveState(android_app *app) {}
         virtual void gainedFocus(android_app *app) {}
         virtual void lostFocus(android_app *app) {}
-        virtual void _drawOneFrame();
-        virtual void drawOneFrame()  = 0;
+        virtual void _drawOneFrame(double ellapsedTime);
+        virtual void drawOneFrame(double ellapsedTime)  = 0;
         virtual void onStart(android_app* app) {}
         virtual void initShaders() = 0;
         virtual void positInit() = 0;

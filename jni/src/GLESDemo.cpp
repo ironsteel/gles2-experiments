@@ -36,15 +36,19 @@ void GLESDemo::initShaders()
 
     }
     shaderProgramObject = programObject;
-    
+    glEnable(GL_DEPTH_TEST);
     return;
 }
 
-void GLESDemo::drawOneFrame()
+void GLESDemo::drawOneFrame(double ellapsedTime)
 {
+    float angle = ellapsedTime / 1000.0 * 75;
+    model = glm::rotate(model, angle, glm::vec3(0, 1, 0));
+    
+    
     glClearColor(0.0f, 1.0f, 0.0f, 1.0f);
     glViewport(0, 0, width, height);
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT);
 
     glUseProgram(shaderProgramObject);
 
@@ -73,12 +77,9 @@ void GLESDemo::positInit()
     initShaders();
     cube = new Cube();
     
-   
-    
-    projection = glm::perspective(45.0, (double) width / height, 0.1, 100.0);
-    view = glm::lookAt(glm::vec3(0, 0, -10), glm::vec3(0, 0, 0), glm::vec3(1, 0, 0));
+    projection = glm::perspective(65.0, (double) width / height, 0.1, 100.0);
+    view = glm::lookAt(glm::vec3(0, 0, -10), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0));
     model = glm::mat4(1.0f);
-//    model = glm::rotate(model, 45.0f, glm::vec3(0, 1, 0));
 }
 
 void GLESDemo::terminateWindow(android_app *app)
@@ -91,8 +92,7 @@ void GLESDemo::createTexture()
     glGenTextures(1, &texId);
     glBindTexture(GL_TEXTURE_2D, texId);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
-    glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     
     glTexImage2D(GL_TEXTURE_2D, // target
                  0,  // level, 0 = base, no minimap,
