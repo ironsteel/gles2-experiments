@@ -1,6 +1,5 @@
 #include "GLESDemo.h"
-
-
+#include "res_texture.c"
 void GLESDemo::initShaders()
 {
     GLuint vertexShader;
@@ -19,6 +18,7 @@ void GLESDemo::initShaders()
     glAttachShader(programObject, fragmentShader);
 
     glBindAttribLocation(programObject, 0, "vPosition");
+    glBindAttribLocation(programObject, 1, "a_texCoord");
     
     glLinkProgram(programObject);
 
@@ -42,33 +42,65 @@ void GLESDemo::initShaders()
 
 void GLESDemo::drawOneFrame()
 {
-    
-    
-    GLfloat vertices[] = { 0.0f, 0.5f, 0.0f,
-                           -0.5f, -0.5f, 0.0f,
-                           0.5f, -0.5f, 0.0f };
     glClearColor(0.0f, 1.0f, 0.0f, 1.0f);
     glViewport(0, 0, width, height);
-    glClear(GL_COLOR_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     glUseProgram(shaderProgramObject);
 
+    glActiveTexture(GL_TEXTURE0);
+    glBindTexture(GL_TEXTURE_2D, texId);
+    
+    
+    
     glm::mat4 mvp = projection * view * model;
     
     GLint mvpId = glGetUniformLocation(shaderProgramObject, "mvp");
+    
+    GLint textureLocation = glGetUniformLocation(shaderProgramObject, "mytexture");
+    
+    glUniform1i(textureLocation, 0);
+    
     glUniformMatrix4fv(mvpId, 1, GL_FALSE, &mvp[0][0]);
     
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, vertices);
-    glEnableVertexAttribArray(0);
-
-    glDrawArrays(GL_TRIANGLES, 0, 3);
+    cube->draw(shaderProgramObject);
     
 }
 
 void GLESDemo::positInit()
 {
+    createTexture();
     initShaders();
-    projection = glm::perspective(45.0, (double) width/height, 0.1, 100.0);
-    view = glm::lookAt(glm::vec3(1, 1, 1), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0));
+    cube = new Cube();
+    
+   
+    
+    projection = glm::perspective(45.0, (double) width / height, 0.1, 100.0);
+    view = glm::lookAt(glm::vec3(0, 0, -10), glm::vec3(0, 0, 0), glm::vec3(1, 0, 0));
     model = glm::mat4(1.0f);
+//    model = glm::rotate(model, 45.0f, glm::vec3(0, 1, 0));
+}
+
+void GLESDemo::terminateWindow(android_app *app)
+{
+    delete cube;
+}
+
+void GLESDemo::createTexture()
+{
+    glGenTextures(1, &texId);
+    glBindTexture(GL_TEXTURE_2D, texId);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+    glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+    
+    glTexImage2D(GL_TEXTURE_2D, // target
+                 0,  // level, 0 = base, no minimap,
+                 GL_RGB, // internalformat
+                 res_texture.width,  // width
+                 res_texture.height,  // height
+                 0,  // border, always 0 in OpenGL ES
+                 GL_RGB,  // format
+                 GL_UNSIGNED_BYTE, // type
+                 res_texture.pixel_data);
 }
