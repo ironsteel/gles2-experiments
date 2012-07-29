@@ -1,43 +1,23 @@
 #include "GLESDemo.h"
 #include "res_texture.c"
+
 void GLESDemo::initShaders()
 {
     GLuint vertexShader;
     GLuint fragmentShader;
 
-    GLuint programObject;
-    GLint linked;
 
 
     vertexShader = compileShader("shaders/simple.vsh", GL_VERTEX_SHADER);
     fragmentShader = compileShader("shaders/simple.fsh", GL_FRAGMENT_SHADER);
     
-    programObject = glCreateProgram();
-
-    glAttachShader(programObject, vertexShader);
-    glAttachShader(programObject, fragmentShader);
-
-    glBindAttribLocation(programObject, 0, "vPosition");
-    glBindAttribLocation(programObject, 1, "a_texCoord");
-    
-    glLinkProgram(programObject);
-
-    glGetProgramiv(programObject, GL_LINK_STATUS, &linked);
-
-    if (!linked) {
-        GLint infoLen = 0;
-        glGetProgramiv(programObject, GL_INFO_LOG_LENGTH, &infoLen);
-        char *infoLog = (char*) malloc(sizeof(char) * infoLen);
-        glGetProgramInfoLog(programObject, infoLen, NULL, infoLog);
-        LOGI("Error linking shader program\n%s\n", infoLog);
-        glDeleteProgram(programObject);
-        free(infoLog);
-        return; 
-
+    simpleProgram = new ShaderProgram(vertexShader, fragmentShader);
+    if(!simpleProgram->link()) {
+        LOGI("Cannot link program");
     }
-    shaderProgramObject = programObject;
-    glEnable(GL_DEPTH_TEST);
-    return;
+    
+    shaderProgramObject = simpleProgram->getProgramId();
+    
 }
 
 void GLESDemo::drawOneFrame(double ellapsedTime)
@@ -48,7 +28,7 @@ void GLESDemo::drawOneFrame(double ellapsedTime)
     
     glClearColor(0.0f, 1.0f, 0.0f, 1.0f);
     glViewport(0, 0, width, height);
-    glClear(GL_COLOR_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     glUseProgram(shaderProgramObject);
 
@@ -59,32 +39,34 @@ void GLESDemo::drawOneFrame(double ellapsedTime)
     
     glm::mat4 mvp = projection * view * model;
     
-    GLint mvpId = glGetUniformLocation(shaderProgramObject, "mvp");
+    GLint mvpId = simpleProgram->getUniformLocation(MVP);
     
-    GLint textureLocation = glGetUniformLocation(shaderProgramObject, "mytexture");
+    GLint textureLocation = simpleProgram->getUniformLocation(TEXTURE);
     
     glUniform1i(textureLocation, 0);
     
     glUniformMatrix4fv(mvpId, 1, GL_FALSE, &mvp[0][0]);
     
-    cube->draw(shaderProgramObject);
+    cube->draw(simpleProgram);
     
 }
 
 void GLESDemo::positInit()
 {
-    createTexture();
-    initShaders();
+     initShaders();
+     createTexture();
+     glEnable(GL_DEPTH_TEST);
     cube = new Cube();
     
-    projection = glm::perspective(65.0, (double) width / height, 0.1, 100.0);
-    view = glm::lookAt(glm::vec3(0, 0, -10), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0));
+    projection = glm::perspective(45.0, (double) width / height, 0.1, 100.0);
+    view = glm::lookAt(glm::vec3(0, 0, -5), glm::vec3(0, 0, 0), glm::vec3(0, 1, 0));
     model = glm::mat4(1.0f);
 }
 
 void GLESDemo::terminateWindow(android_app *app)
 {
     delete cube;
+    delete simpleProgram;
 }
 
 void GLESDemo::createTexture()

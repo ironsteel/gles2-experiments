@@ -25,6 +25,7 @@ LOCAL_SRC_FILES := src/main.cpp \
 		   src/GLESApplication.cpp \
                    src/GLESDemo.cpp \
                    src/Cube.cpp \
+                   src/ShaderProgram.cpp \
                    src/res_texture.c
 
 LOCAL_LDFLAGS	:= -Wl,-Map=native-activity.map  

@@ -4,6 +4,7 @@
 #include "glm/glm.hpp"
 #include "glm/ext.hpp"
 #include "glm/gtc/quaternion.hpp"
+#include "ShaderProgram.h"
 #include "Cube.h"
 
 using namespace std;
@@ -21,6 +22,9 @@ protected:
     void positInit();
     void terminateWindow(android_app *app);
     void createTexture();
+    
+    
+    ShaderProgram *simpleProgram;
     
     glm::mat4 projection;
     glm::mat4 view;

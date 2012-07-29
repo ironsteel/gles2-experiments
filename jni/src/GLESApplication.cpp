@@ -142,6 +142,7 @@ void GLESApplication::handleCommand(android_app *app, int32_t cmd)
             // The window is being shown, get it ready.
             if (app->window != NULL) {
                 initWindow(app);
+                drawOneFrame(0);
             }
             break;
         case APP_CMD_TERM_WINDOW:
@@ -218,16 +219,21 @@ void GLESApplication::tearDownEGLContext()
 
 void GLESApplication::run()
 {
+    
+    double delta = 1000.0/ 60.0;
     androidContext->userData = this;
     androidContext->onAppCmd = handle_cmd;
     androidContext->onInputEvent = handle_input;
 
     double startTime = 0;
     double timeSinceLastFrame = 0;
+    double start = 0;
+    int frames = 0;
     
     while (true) {
        
         startTime = getCuttentTime();
+        
         
         int ident;
         int events;
@@ -250,10 +256,21 @@ void GLESApplication::run()
                 return;
             }
         }
-        _drawOneFrame(timeSinceLastFrame);
         
-        timeSinceLastFrame = getCuttentTime() - startTime;
         
+        if(timeSinceLastFrame >= delta) {
+            if(start >= 1000) {
+                LOGI("FPS: %d", frames);
+                frames = 0;
+                start = 0;
+            }
+            _drawOneFrame(timeSinceLastFrame);
+            timeSinceLastFrame = 0;
+            frames++;
+        }
+        double diff = getCuttentTime() - startTime;
+        timeSinceLastFrame += diff;
+        start += diff;
     }
     
 }

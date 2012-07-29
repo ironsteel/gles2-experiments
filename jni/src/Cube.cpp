@@ -8,13 +8,15 @@ Cube::Cube()
 }
 
 
-void Cube::draw(GLuint shaderProgram)
+void Cube::draw(ShaderProgram *shaderProgram)
 {
-    glEnableVertexAttribArray(0);
+    
+    GLint vertIdx = shaderProgram->getAttributeLocation(POSITION);
+    glEnableVertexAttribArray(vertIdx);
     // Describe our vertices array to OpenGL (it can't guess its format automatically)
     glBindBuffer(GL_ARRAY_BUFFER, vbo_cube_vertices);
     glVertexAttribPointer(
-      0, // attribute
+      vertIdx, // attribute
       3,                 // number of elements per vertex, here (x,y,z)
       GL_FLOAT,          // the type of each element
       GL_FALSE,          // take our values as-is
@@ -22,10 +24,11 @@ void Cube::draw(GLuint shaderProgram)
       0                  // offset of first element
     );
   
-    glEnableVertexAttribArray(1);
+    GLint texCoords = shaderProgram->getAttributeLocation(TEX_COORDS);
+    glEnableVertexAttribArray(texCoords);
     glBindBuffer(GL_ARRAY_BUFFER, vbo_cube_texcoords);
     glVertexAttribPointer(
-      1, // attribute
+      texCoords, // attribute
       2,                  // number of elements per vertex, here (x,y)
       GL_FLOAT,           // the type of each element
       GL_FALSE,           // take our values as-is
@@ -38,8 +41,8 @@ void Cube::draw(GLuint shaderProgram)
     int size;  glGetBufferParameteriv(GL_ELEMENT_ARRAY_BUFFER, GL_BUFFER_SIZE, &size);
     glDrawElements(GL_TRIANGLES, size/sizeof(GLushort), GL_UNSIGNED_SHORT, 0);
   
-    glDisableVertexAttribArray(0);
-    glDisableVertexAttribArray(1);
+    glDisableVertexAttribArray(vertIdx);
+    glDisableVertexAttribArray(texCoords);
   
     
        

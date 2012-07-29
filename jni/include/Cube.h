@@ -3,7 +3,7 @@
 
 #include <GLES2/gl2.h>
 #include "glm/glm.hpp"
-
+#include "ShaderProgram.h"
 
 class Cube 
 {
@@ -14,7 +14,7 @@ public:
     {
     }
     
-    void draw(GLuint shaderProgram);
+    void draw(ShaderProgram *shaderProgram);
 
 private:
     void initGeometry();

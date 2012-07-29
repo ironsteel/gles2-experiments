@@ -1,5 +1,5 @@
-attribute vec4 vPosition;
-attribute vec2 a_texCoord;
+attribute vec4 position;
+attribute vec2 atexcoord;
 
 uniform mat4 mvp;
 
@@ -9,6 +9,6 @@ varying vec2 v_texCoord;
 
 void main()
 {
-    v_texCoord = a_texCoord;    
-    gl_Position = mvp * vPosition;
+    v_texCoord = atexcoord;    
+    gl_Position = mvp * position;
 }
